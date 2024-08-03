@@ -1,2 +1,15 @@
 server:
   port: 8080
+spring:
+  data:
+    redis:
+      password: 'C1#tZ9^dB6!wP8@xQ5&lK3%'
+      host: 39.101.70.41
+      port: 6379
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.101.70.41:3306/shopguide?useSSL=false&serverTimezone=UTC
+    username: aaqqs
+    password: 'Ys6EzP8dWKNHd53E'
+mybatis-plus:
+  type-aliases-package: com.aaqqs.dao.entity #别名扫描
